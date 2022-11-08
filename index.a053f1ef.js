@@ -1,2 +1,0 @@
-!function(){var n={fetchCountries:function(n){return fetch("".concat("https://restcountries.com/v2","/name/").concat(n,"?fields=name,capital,currencies")).then((function(n){return n.json()}))}};document.querySelector("#search-box").addEventListener("input",(function(t){var e=t.target.value;n.fetchCountries(e).then((function(n){return console.log(n)})).catch((function(n){return console.log(n)}))}))}();
-//# sourceMappingURL=index.a053f1ef.js.map

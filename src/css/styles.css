@@ -17,10 +17,56 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+  font-size: 20px;
+  border-radius: 3px;
+}
+
+#search-box:hover, :focus {
+  outline: none;
+  border: 2px solid rgb(28, 28, 208);
+
+}
+
+.country-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+
 }
 
 li {
+  display: flex;
+  gap: 10px;
   list-style: none;
   padding: 0;
   margin: 0;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+
 }
+
+.country-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0;
+}
+
+.name-country {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  gap: 8px;
+
+}
+
+p {
+  margin: 0;
+}
+
+
+
+
